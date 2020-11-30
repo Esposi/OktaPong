@@ -13,3 +13,5 @@ OktaPong é um minigame baseado em turnos. Seu funcionamento consiste:
 **Funcionamento.**<br/>
 
 O jogador pode se movimentar utilizando as setas do teclado ou as teclas "W","S","A","D" para o segundo jogador. As setas nas verticais movimenta o jogador para cima e para baixo enquanto as setas nas horizontais rotaciona o jogador para ajustar seu tiro.
+
+(https://github.com/Esposi/OktaPong/blob/main/clone%20def/movimentacaoplayer.png)
