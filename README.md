@@ -1,7 +1,7 @@
 # OktaPong
 Unity3D Game
 
-**Sobre.**<br/>
+## Sobre.**<br/>
 OktaPong é um minigame baseado em turnos. Seu funcionamento consiste:
 - Disputa entre 2 players, onde a cada turno,um tenta destruir o outro, utilizando um projétil.
 - Cada jogador tem 100 pontos de vida
@@ -58,3 +58,16 @@ Para seleção de mapas foi oferecido as opções:
 
 
 ## Estrutura
+
+Nesta sessão será apresentado estruturas utilizadas no projeto.
+
+### Pastas
+
+
+- ```GlobalManager.cs``` ```ArenaNode.cs```
+  - ```ArenaNode.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+  - ```ArenaNode.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
