@@ -45,3 +45,10 @@ Dices
 After Game
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/menu3.png)
+
+
+Para seleção de mapas foi oferecido as opções:
+
+- 1 - Mapa Limpo(Clean);
+- 2 - Mapa com poucos obstáculos(Medium);
+- 3 - Mapa com obstáculos grandes(999qi)
