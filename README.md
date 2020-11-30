@@ -28,7 +28,7 @@ O jogador tem disponível quatro tipos de projetéis. Para utiliza-los o jogador
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/skills2.png)
 
-As telas utilizadas seguem o Fluxo Main Menu->Game->Chose Map->Dices->Results->Retry. Antes de começar a partida os jogadores terão que selecionar a fase que querem jogar e disputar dados para ver quem começará:
+As telas utilizadas seguem o fluxo 'Main Menu->Game->Chose Map->Dices->Results->Retry'. Antes de começar a partida os jogadores terão que selecionar a fase que querem jogar e disputar dados para ver quem começará:
 
 Main Menu
 
