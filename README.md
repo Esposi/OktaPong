@@ -123,10 +123,12 @@ Foi utilizado speed *=-1 para alteração de direção direita-esqueda. Para ist
 
 ## Extensibilidade
 
-Foi adicionado ao projéto a possibilidade de extensibilidade para inclusão de novos conteúdos, como fases, comportamento de projéteis e loja. 
+Foi adicionado ao projéto a possibilidade de extensibilidade para inclusão de novos conteúdos como fases, comportamento de projéteis e loja:
 
-Foi pensado em um inventario aonde poderá ser armazenado informações dos jogadores e a base necessaria para armazenar itens comprados, como quantidade de balas, dinheiro,etc.
+- Há um inventario aonde poderá ser armazenado informações dos jogadores e a base necessaria para armazenar itens comprados, como quantidade de balas, dinheiro,etc.
 
-Para novas fases foi feito um vetor de mapas que armazena fases projetadas. Desta forma é instanciado o mapa escolhido pelos jogadores no board dentre os existentes no vetor de armazenamento de mapas, sendo que para novos mapas basta adicionar ao vetor e disponibilizar a escolha. Este vetor esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
+- Para novas fases foi feito um vetor de mapas que armazena fases projetadas. Desta forma é instanciado o mapa escolhido pelos jogadores no board dentre os existentes no vetor de armazenamento de mapas, sendo que para novos mapas basta adicionar ao vetor e disponibilizar a escolha. Este vetor esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
 
-Para comportamento de balas, como para mapas, foi feito um vetor de projéteis que o jogador pode utilizar quando clica de '1' a '4' na partida. Desta forma basta projetar novas caracteristicas para os projéteis e adicionar ao vetor de projéteis, que esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
+- Para comportamento de balas, como para mapas, foi feito um vetor de projéteis que o jogador pode utilizar quando clica de '1' a '4' na partida. Desta forma basta projetar novas caracteristicas para os projéteis e adicionar ao vetor de projéteis, que esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
+
+- Para adicionar novas janelas, como Leaderboard e Loja, o UIManager foi feito para que rapidamente se pudesse adicionar novas janelas projetadas. O UIManager possui a base necessária para receber rapidamente novas janelas dentro do jogo como também para a função de dados de um jogador, como dinheiro, pontos, level, etc., é suportada pela base feita referente a dados de Usuarios no script InventoryManager.cs
