@@ -22,8 +22,15 @@ O jogador tem disponível quatro tipos de projetéis. Para utiliza-los o jogador
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/skills1.png)
 
 - 1 - Roxo: Projétil padrão
-- 2 - Vermelho: Projétil Veloz
-- 3 - Verde: Projétil Grande Devagar
-- 4 - Shuriken: Projétil que causa o Dobro de Dano.
+- 2 - Vermelho: Projétil veloz
+- 3 - Verde: Projétil grande devagar
+- 4 - Shuriken: Projétil que causa o dobro de dano.
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/skills2.png)
+
+As telas utilizadas seguem o Fluxo Main Menu->Game->Results->Retry:
+
+####MainMenu
+
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/menu1.png)
