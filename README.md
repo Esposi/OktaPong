@@ -75,7 +75,11 @@ Nesta sessão será apresentado estruturas utilizadas no projeto.
   
 ### Scripts
 
-Os scripts foram projetados para ter dois pontos de manuseamento principal de funções. MechanicsManager.cs cuida das mecanicas envolvidas na partida entre os jogadores enquanto UIManager.cs cuida de gerenciar as funções basicas dentro de cada tela presente no jogo.
+Os scripts foram projetados para ter dois pontos de manuseamento principal de funções. MechanicsManager.cs cuida das mecanicas envolvidas na partida entre os jogadores enquanto UIManager.cs cuida de gerenciar as funções basicas dentro de cada tela presente no jogo. O diagrama abaixo exemplifica:
+
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/scripts.png)
+
 
 #### MechanicsManager.cs
 
