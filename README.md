@@ -55,3 +55,19 @@ Para seleção de mapas foi oferecido as opções:
 
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/maps.png)
+
+
+
+
+**Estrutura.**<br/>
+
+##Pastas
+
+- ```GlobalManager.cs``` ```ArenaNode.cs```
+  - ```ArenaNode.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+  - ```ArenaNode.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+    - ```ArenaNode.cs``` ```ArenaAgent.cs```
+
