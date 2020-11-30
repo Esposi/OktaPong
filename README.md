@@ -113,6 +113,6 @@ Desta forma, foi utilizado a seguinte ideia:
 
 Assim, a reflexão será 2*alpha + angulo inicial. Em codigo ficou:
 
-
-
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/getnewangle.png)
+
+Foi utilizado speed *=-1 para alteração de direção direita-esqueda. Para isto foi designado tags para supérfícies que mudam a direção do projétil quando é maior que 180º. Desta forma, além do grau de reflexão, quando for identificado "VertBar" o alvo mudará sua direção direita-esqueda.
