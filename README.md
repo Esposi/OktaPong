@@ -64,14 +64,12 @@ Nesta sessão será apresentado estruturas utilizadas no projeto.
 ### Pastas
 
 - Assets
-  - ML-Agents: supports from Unity ML-Agents
-  - ArenaSDK
-    - Brains: where we put shared brains for agents
-    - Code Format: where we put a formating config file that can be used if you are using Atom with package [atom-beautify](https://github.com/Glavin001/atom-beautify). It can be used to format code as we did in the project
-    - GameSet: where we put all the games
-    - Images: images we are using in the project
-    - Materials: materials we are using in the project
-    - PhysicMaterial: physic material we are using in the project
-    - ThirdPartyAssets: third-party assets used in the project
-    - Prefabs: all the prefabs including that of the agents, playgrouds and etc.
-    - Scripts: all the scripts
+  - Material
+  - Prefab   
+    - Levels    
+  - Scene
+  - Scripts   
+    - Controllers   
+    - UI    
+  - Sprites
+  
