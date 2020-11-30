@@ -93,5 +93,22 @@ Há dois scripts que enviam funções para MechanicsManager.cs:
 Há cinco scripts que enviam funções para MechanicsManager.cs:
 
 - MainMenuUI: Solicita abrir e fechar janelas para MainMenu->ChoseLVL;
-- ChoseLvlUI: Envia o mapa selecionado para UIManager, e posteriormente é enviado para o MechanicsManager que instanciará o mapa.
-- TurnUI: Faz a disputa entre os dados e envia os valores para UIManager que encaminha também para MechanicsManager
+- ChoseLvlUI: Envia o mapa selecionado para UIManager, e posteriormente é enviado para o MechanicsManager que instanciará o mapa;
+- TurnUI: Faz a disputa entre os dados e envia os valores para UIManager que encaminha também para MechanicsManager;
+- GameUI: Recebe informações por MechanicsManager -> UIManager para atualização das informações dos jogadores na UI da partida;
+- AfterGameUI: Após o termino da partida é enviado informações de InventoryManager->MechanicsManager->UIManager->GameUI que mostrarão a vida restante e os tiros disparados pelos jogadores.
+
+
+#### ProjectileController.cs
+
+A movimentação do projétil foi programada sem as funções basicas existentes da Unity. Logo, para isso, não foi utilizado o componente RigidBody para os projéteis disparados no jogo. Para movimentação utilizou-se a movimentação de transform.position em relação aos frames do jogo, como mostra abaixo:
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/movimentprojectile.png)
+
+Para reflexão do projétil foi utilizado a função OnTriggeredEnter. Ao identificar uma parede foi necessario calcular o angulo de reflexão referente ao angulo do vetor velocidade em relação ao vetor normal da parede. A imagem abaixo exemplifica
+
+Desta forma, foi utilizado a seguinte ideia:
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/movimentprojectile.png)
+
+Assim, a reflexão será 2*alpha + angulo inicial. Em codigo ficou:
