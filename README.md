@@ -1,7 +1,7 @@
 # OktaPong
 Unity3D Game
 
-## Sobre.**<br/>
+## Sobre
 OktaPong é um minigame baseado em turnos. Seu funcionamento consiste:
 - Disputa entre 2 players, onde a cada turno,um tenta destruir o outro, utilizando um projétil.
 - Cada jogador tem 100 pontos de vida
