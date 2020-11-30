@@ -75,7 +75,11 @@ Nesta sessão será apresentado estruturas utilizadas no projeto.
   
 ### Scripts
 
-Os scripts foram projetados para ter dois pontos de manuseamento principal de funções. MechanicsManager.cs cuida das mecanicas envolvidas na partida entre os jogadores enquanto UIManager.cs cuida de gerenciar as funções basicas dentro de cada tela presente no jogo. O diagrama abaixo exemplifica:
+Os scripts foram projetados para ter dois pontos de manuseamento de funções. MechanicsManager.cs cuida das mecanicas envolvidas na partida entre os jogadores enquanto UIManager.cs cuida de gerenciar as funções basicas dentro das telas presentes no jogo. 
+
+Há um GameObject chamado 'Manager' que possui os scripts 'UIManager.cs', 'MechanicsManager.cs' e 'InventoryManager.cs', e ele é responsável pela comunicação entre as diversas funções do jogo.
+
+O diagrama abaixo exemplifica:
 
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/scripts.png)
@@ -116,3 +120,13 @@ Assim, a reflexão será 2*alpha + angulo inicial. Em codigo ficou:
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/getnewangle.png)
 
 Foi utilizado speed *=-1 para alteração de direção direita-esqueda. Para isto foi designado tags para supérfícies que mudam a direção do projétil quando é maior que 180º. Desta forma, além do grau de reflexão, quando for identificado "VertBar" o alvo mudará sua direção direita-esqueda.
+
+## Extensibilidade
+
+Foi adicionado ao projéto a possibilidade de extensibilidade para inclusão de novos conteúdos, como fases, comportamento de projéteis e loja. 
+
+Foi pensado em um inventario aonde poderá ser armazenado informações dos jogadores e a base necessaria para armazenar itens comprados, como quantidade de balas, dinheiro,etc.
+
+Para novas fases foi feito um vetor de mapas que armazena fases projetadas. Desta forma é instanciado o mapa escolhido pelos jogadores no board dentre os existentes no vetor de armazenamento de mapas, sendo que para novos mapas basta adicionar ao vetor e disponibilizar a escolha. Este vetor esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
+
+Para comportamento de balas, como para mapas, foi feito um vetor de projéteis que o jogador pode utilizar quando clica de '1' a '4' na partida. Desta forma basta projetar novas caracteristicas para os projéteis e adicionar ao vetor de projéteis, que esta disponível no script MechanicsManager, que cuida das funcionalidades da partida.
