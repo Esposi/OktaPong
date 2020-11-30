@@ -12,7 +12,7 @@ OktaPong é um minigame baseado em turnos. Seu funcionamento consiste:
 ## Orientações
 
 Instalação:
-- Adquira o projeto zipado, extraia e abra no Unity usando o caminho ./OktaPong/clone def/
+- Adquira o projeto compactado, extraia e abra no Unity usando o caminho ./OktaPong/clone def/
 - Use a versão do Unity 2018.3.0 ou acima
 
 ## Funcionamento
