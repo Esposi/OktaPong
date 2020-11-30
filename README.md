@@ -9,6 +9,11 @@ OktaPong é um minigame baseado em turnos. Seu funcionamento consiste:
 - O projétil ricocheteia nas paredes e obstáculos.
 - Há quatro tipos de projéteis que podem ser utilizados pelos jogadores. Cada um possui funcionalidades diferentes referante a tamanho, dano e velocidade.
 
+## Orientações
+
+Instalação:
+- Adquira o projeto zipado, extraia e abra no Unity usando o caminho ./OktaPong/clone def/
+- Use a versão do Unity 2018.3.0 ou acima
 
 ## Funcionamento
 
