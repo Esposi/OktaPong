@@ -30,7 +30,7 @@ O jogador tem disponível quatro tipos de projetéis. Para utiliza-los o jogador
 
 As telas utilizadas seguem o Fluxo Main Menu->Game->Results->Retry:
 
-####MainMenu
+###MainMenu
 
 
 ![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/menu1.png)
