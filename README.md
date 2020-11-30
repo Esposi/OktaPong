@@ -52,3 +52,6 @@ Para seleção de mapas foi oferecido as opções:
 - 1 - Mapa Limpo (Clean);
 - 2 - Mapa com poucos obstáculos (Medium);
 - 3 - Mapa com obstáculos grandes (9999qi)
+
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/maps.png)
