@@ -75,6 +75,19 @@ Nesta sessão será apresentado estruturas utilizadas no projeto.
   
 ### Scripts
 
- 
-    - Levels    
-  - Scene
+Os scripts foram projetados para ter dois pontos de manuseamento principal de funções. MechanicsManager.cs cuida das mecanicas envolvidas na partida entre os jogadores enquanto UIManager.cs cuida de gerenciar as funções basicas dentro de cada tela presente no jogo.
+
+#### MechanicsManager.cs
+
+Há dois scripts que enviam funções para MechanicsManager.cs:
+
+- PlayerController: Envia funções de identificação de colisão e fim de turno referente ao desparo do projétil;
+- InventoryManager: Recebe e Envia informações referentes à dados do jogador, como vida e tiros desparados.
+
+#### UIManager.cs
+
+Há cinco scripts que enviam funções para MechanicsManager.cs:
+
+- MainMenuUI: Solicita abrir e fechar janelas para MainMenu->ChoseLVL;
+- ChoseLvlUI: Envia o mapa selecionado para UIManager, e posteriormente é enviado para o MechanicsManager que instanciará o mapa.
+- TurnUI: Faz a disputa entre os dados e envia os valores para UIManager que encaminha também para MechanicsManager
