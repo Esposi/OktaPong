@@ -49,6 +49,6 @@ After Game
 
 Para seleção de mapas foi oferecido as opções:
 
-- 1 - Mapa Limpo(Clean);
-- 2 - Mapa com poucos obstáculos(Medium);
-- 3 - Mapa com obstáculos grandes(999qi)
+- 1 - Mapa Limpo (Clean);
+- 2 - Mapa com poucos obstáculos (Medium);
+- 3 - Mapa com obstáculos grandes (9999qi)
