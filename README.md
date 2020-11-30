@@ -109,6 +109,10 @@ Para reflexão do projétil foi utilizado a função OnTriggeredEnter. Ao identi
 
 Desta forma, foi utilizado a seguinte ideia:
 
-![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/movimentprojectile.png)
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/movimentprojectileexample.png)
 
 Assim, a reflexão será 2*alpha + angulo inicial. Em codigo ficou:
+
+
+
+![alt text](https://github.com/Esposi/OktaPong/blob/main/clone%20def/getnewangle.png)
